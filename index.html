@@ -1,43 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>griddesign</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="header">
-        <p><span class="fw-bold">grid</span>design</p>
-    </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>giarddesign</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header hstack gap-3">
+      <p class="ps-5 pt-3 fs-4 logo">
+        <span class="fw-bold">giard</span>design
+      </p>
+      <nav class="navbar navbar-expand-lg p-2 ms-auto">
         <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Oferta
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Projekty</a></li>
-                          <li><a class="dropdown-item" href="#">Wizualizacje</a></li>
-                          <li><a class="dropdown-item" href="#">Realizacje</a></li>
-                        </ul>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">O firmie</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Realizacje</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
-                  </li>
-                  
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Oferta
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Projekty</a></li>
+                  <li><a class="dropdown-item" href="#">Wizualizacje</a></li>
+                  <li><a class="dropdown-item" href="#">Realizacje</a></li>
                 </ul>
-              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">O firmie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Realizacje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
+            </ul>
+            <form class="d-flex px-2" role="search">
+              <input
+                type="text"
+                class="search-click"
+                name=""
+                placeholder="search here..."
+              />
+            </form>
+            <img class="search-img" src="images/search.png" />
+          </div>
         </div>
-    </nav>
-</body>
+      </nav>
+    </div>
+    <div class="container main-section">
+      <div class="row">
+        <div class="col main-col1">
+          <h1 class="pt-5 text-main fw-normal">
+            Nowoczesna
+            <br />
+            aranżacja
+            <br />
+            Twojego ogrodu
+          </h1>
+          <p class="pt-5 text-main">
+            Marka GiardDesign to wieloletnie doświadczenie i wysoka
+            <br />
+            estetyka realizacji. Oferujemy kompleksowy zakres usług
+            <br />
+            z indywidualnym podejściem do każdego projektu.
+          </p>
+          <button class="btn btn-success">Skontaktuj się z nami</button>
+          <button class="btn btn-outline-success">
+            Zobacz nasze realizacje
+            <img class="arrow-img" src="images/next.png" />
+          </button>
+        </div>
+        <div class="col main-col2">
+          <img class="background-img" src="images/background.jpeg" />
+        </div>
+      </div>
+    </div>
+    <div class="offer">
+        <div class="offer-intro">
+            <h6 class="offer-title">Oferta</h6>
+        <h1 class="offer-header">Działamy <span class="fst-italic">kompleksowo</span></h1>
+        <p>
+          Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy
+          nowoczesne ogrody
+          <br>
+          przydomowe oraz rezydencjonalne. Stworzymy dla
+          Ciebie projekt, zwizualizujemy go i wcielimy
+          <br> 
+          w życie, a na każdym
+          etapie posłużymy radą i wieloletnim doświadczeniem.
+        </p>
+        </div>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img class="card-img" src="images/pencil.png" class="card-img-top"/>
+              <div class="card-body">
+                <h3 class="card-title">Projekty</h3>
+                <p class="card-text">
+                    Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.
+                </p>
+              </div>
+              <button type="button" class="btn btn-link">Dowiedz się więcej <img class="arrow-card" src="images/next.png"></button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img class="card-img" src="images/eye.png" class="card-img-top" />
+              <div class="card-body">
+                <h3 class="card-title">Wizualizacje</h3>
+                <p class="card-text">Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.</p>
+              </div>
+              <button type="button" class="btn btn-link">Dowiedz się więcej <img class="arrow-card" src="images/next.png"></button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img class="card-img" src="images/stars.png" class="card-img-top"/>
+              <div class="card-body">
+                <h3 class="card-title">Realizacje</h3>
+                <p class="card-text">
+                    Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.
+                </p>
+              </div>
+              <button type="button" class="btn btn-link">Dowiedz się więcej <img class="arrow-card" src="images/next.png"></button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
