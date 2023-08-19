@@ -126,3 +126,39 @@ h1{
     width: 17px;
     margin-left: 6px;
 }
+
+/* ABOUT */
+
+.garden-col{
+    padding-left: 0px;
+    padding-right: 0px !important;
+}
+
+
+.garden-img{
+    width: 700px;
+    height: 720px;
+}
+
+.description-about{
+    background-color: #1B5B31;
+    color: rgb(230, 230, 230);
+    padding-right: 0px !important;
+    
+}
+
+.text-about{
+    margin-left: 130px;
+    margin-top: 110px;
+}
+
+.arrow-white{
+    height: 18px;
+    margin-top: -2px;
+}
+
+.btn-about{
+    color: rgb(230, 230, 230) !important;
+    border-color: rgb(230, 230, 230) !important ;
+    margin-left: 120px !important;
+}
