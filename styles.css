@@ -130,7 +130,7 @@ h1{
 /* ABOUT */
 
 .garden-col{
-    padding-left: 0px;
+    padding-left: 0px !important;
     padding-right: 0px !important;
 }
 
@@ -161,4 +161,17 @@ h1{
     color: rgb(230, 230, 230) !important;
     border-color: rgb(230, 230, 230) !important ;
     margin-left: 120px !important;
+}
+
+/* PROJECTS */
+
+.projects{
+    background-color: #DCC1AB;
+    padding-left: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projects-title{
+    color: #1B5B31;
 }
