@@ -190,3 +190,71 @@ h1{
     margin-bottom: 80px !important;
     
 }
+
+/* FOOTER */
+
+.footer{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.link-container{
+    display: flex;
+}
+
+.col-footer-logo{
+    margin-left: 140px;
+    margin-top: 80px !important;
+}
+
+.col-footer-text{
+    margin-top: -10px !important;
+}
+
+.btn-contact{
+    margin-top: 90px !important;
+    
+}
+
+hr{
+    color: #FFFFFF !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    
+}
+
+.col-footer-link{
+    display: flex !important;
+}
+
+.footer-link-element{
+    margin-right: 15px;
+    margin-left: 65px;
+}
+
+.col-footer-contact{
+    display: flex !important;
+}
+
+.footer-contact-element1{
+    margin-left: 185px !important;
+}
+
+.footer-contact-element2{
+    margin-left: 120px !important;
+}
+
+.logo-img{
+    width: 110px;
+    height: 30px;
+}
+
+.copyright{
+    margin-top: 150px;
+    margin-left: 140px;
+}
+
+.madeby{
+    margin-top: 150px;
+    margin-left: 435px;
+}
